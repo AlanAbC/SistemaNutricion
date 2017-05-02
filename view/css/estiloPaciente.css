@@ -1,0 +1,147 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	background-color: #d3d3d3;
+}
+.usuario{
+	width: 20%;
+	height: 900px;
+	background-color: #c5c5c5;
+	position: relative;
+	float: left;
+}
+.contenedor{
+	width: 80%;
+	height: 700px;
+	background-color: #d3d3d3	;
+	position: relative;
+	float: left;
+}
+.inf{
+	width: 100%;
+	height: 100px;
+	background-color: #6fae39;
+	position: relative;
+	float: left;	
+}
+.imgUsu{
+	width: 27%;
+	height: 110px;
+	background-color: #f2f2f2;
+	position: relative;
+	float: left;
+	border-radius: 80%;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.nombreUsu{
+	width: 50%;
+	font-size: 25px;
+	margin-left: 35px;
+	position: relative;
+	float: left;
+	color: #F2F2F2;
+	margin-top: 65px;
+	background-color: transparent;
+}
+.informacionPersonal{
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: transparent;
+	border-bottom: 2px solid #6fae39;
+}
+.id,.nombre,.telefono,.correo,.sexo,.edad{
+	width: 15%;
+	position: relative;
+	float: left;
+	margin-top: 15px;
+	background-color:transparent;
+	text-align: right;
+	padding-left: 25px;
+	font-size: 20px;
+	height: 30px;
+	color: #649e34;
+	box-sizing:border-box;
+
+}
+.txtid,.txtnombre,.txttelefono,.txtcorreo,.txtsexo,.txtedad{
+	width: 30%;
+	font-size: 20px;
+	height: 30px;
+	margin-top: 15px;
+	position: relative;
+	float: left;
+	text-align: left;
+	color: #649e34;
+	padding-left: 25px;
+	box-sizing:border-box;
+	background-color: transparent;
+
+}
+.detalles{
+	width: 30%;
+	height: 600px;
+	margin-top: 100px;
+	position: relative;
+	float: left;
+	color: white;
+	background-color: #7bc144;
+
+}
+.imc,.icc,.porGrasa,.porMusculo{
+	width: 50%;
+	position: relative;
+	float: left;
+	height: 45px;
+	text-align: right;
+	font-size: 16px;
+	margin-top: 20px;
+	padding-right: 20px;
+	box-sizing:border-box;
+}
+.tabla{
+	width: 60%;
+	margin-top: 60px;
+	height: 40px;
+	color: #6fae39;		
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+	box-sizing:border-box;
+	border-radius: 15px;
+	background-color: #F2F2F2;
+	position: relative;
+	float: left;
+	left: 50%;
+	margin-left: -30%;
+
+}
+.txtimc,.txticc,.txtporGrasa,.txtporMusculo{
+	width: 50%;
+	margin-top: 20px;
+	position: relative;
+	float: left;
+	height: 45px;
+	font-size: 16px;
+	text-align: left;
+}
+.infoEspecifica{
+	width: 100%;
+	height: 700px;
+	position: relative;
+	float: left;
+	background-color: transparent;
+}
+.grafica{
+	width: 60%;
+	height: 500px;
+	margin-top: 120px;
+	position: relative;
+	float: left;
+	margin-left: 5%;	
+	background-color: #6fae39;
+}
