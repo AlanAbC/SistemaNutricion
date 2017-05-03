@@ -7,9 +7,9 @@
 <body>
 <div class="usuario">
 	<div class="inf">
-		<img class="imgUsu">
-		<div class="nombreUsu">Nombre</div>
+        <p>Nutrition App</p>
 	</div>
+    <div class="seccion">Pacientes</div>
 	<div class="opciones">
 		<div class="opc1">OPCION1</div>
 		<div class="opc">OPCION</div>
@@ -20,10 +20,16 @@
 </div>
 <div class="contenedor">
 	<div class="header">
-		<div class="txt">PACIENTES</div>
-		<input type="text" placeholder="Buscar" class="buscar"></input>
+        <div class="nombreUsu">Alan Abundis Canales</div>
+        <img class="imgUsu">
+
 	</div>
 	<div class="tabUsu">
+        <div class="busqueda">
+            <p>Busqueda</p>
+            <input type="text" class="buscar" placeholder="Buscar">
+        </div>
+
 		<table>
 			<td class="tdID">ID</td>
 			<td class="tdNom">NOMBRE</td>
